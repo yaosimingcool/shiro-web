@@ -29,4 +29,8 @@ public class UserController {
         }
         return "index";
     }
+
+    public String select(){
+        return null;
+    }
 }

@@ -32,6 +32,7 @@ public class ShiroConf {
 
     @Bean
     public SecurityManager getSecurityManager(){
+        System.out.println("--------------------");
         SecurityManager securityManager = new DefaultWebSecurityManager();
         return securityManager;
     }
