@@ -34,6 +34,7 @@ public class ShiroConf {
     public SecurityManager getSecurityManager(){
         System.out.println("--------------------");
         System.out.println("hello");
+        System.out.println("word");
         SecurityManager securityManager = new DefaultWebSecurityManager();
         return securityManager;
     }
